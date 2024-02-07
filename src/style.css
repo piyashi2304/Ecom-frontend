@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(246, 221, 192);
+}
+.route-part{
+   
+    list-style: none;
+}
+
+.route-part h1{
+    text-align: center;
+    
+}
+.link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    
+  text-align: center;
+}
+.web-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    /* flex-direction: row; */
+}
+.image{
+    flex-basis: 20%;
+   
+    /* border: 1px solid black;
+    border-radius: 15px; */
+  
+    margin: 5px;
+}
+.tittle{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
